@@ -53,7 +53,7 @@ h1 {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 3em;
+    gap: 1em;
 }
 
 .images-container div {
