@@ -23,6 +23,30 @@ h1 {
     flex-direction: column;
 }
 
+.links-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.links-container a {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #072042;
+    padding: 1em 2em;
+    border-radius: 30px;
+}
+
+.links-container a:hover {
+    background-color: #130f17;
+}
+
 .images-container {
     display: flex;
     align-items: center;
@@ -30,7 +54,6 @@ h1 {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 3em;
-    margin: 2em 0;
 }
 
 .images-container div {
